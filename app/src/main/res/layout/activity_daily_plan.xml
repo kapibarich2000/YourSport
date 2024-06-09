@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DailyPlanActivity">
+
+    <EditText
+        android:id="@+id/editTextX1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="80dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextX2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="142dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextX3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="207dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextAgeDailyPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="275dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextHihtDailyPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="343dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextWeightDailyPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="408dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="16dp"
+        android:text="Тестовая форма"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="92dp"
+        android:text="x1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="238dp"
+        android:layout_y="156dp"
+        android:text="x2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="238dp"
+        android:layout_y="286dp"
+        android:text="Возраст"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="238dp"
+        android:layout_y="422dp"
+        android:text="Вес"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="473dp"
+        android:text="Тип тренировки"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="238dp"
+        android:layout_y="356dp"
+        android:text="Рост"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="219dp"
+        android:text="x3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonNNTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="571dp"
+        android:text="Тест нейронной сети"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTypeOfTrainingDailyPlan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="517dp"
+        android:entries="@array/types_of_training" />
+
+</AbsoluteLayout>

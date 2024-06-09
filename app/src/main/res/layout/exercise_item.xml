@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:background="@android:color/holo_green_light">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TextAndButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewExercisePhoto"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:padding="16sp"
+            android:background="#8F8585"
+            app:srcCompat="@android:drawable/ic_dialog_info" />
+
+        <TextView
+            android:id="@+id/textViewExerciseName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:padding="16sp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="Hello" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewExerciseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_margin="8dp"
+        tools:text="Описание тренировки"/>
+
+</LinearLayout>
+
+
+    <!--View элемент для записи-->

@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Your Sport</string>
+    <string name="button_exercise_description">Create new exercise</string>
+    <string name="hint_note_name">Подтягивание</string>
+    <string name="radio_button_text">Низкая</string>
+    <string name="radio_button_medium">Средняя</string>
+    <string name="radio_button_high">Высокая</string>
+    <string name="button_bake_note_text">Сохранить</string>
+    <string name="warning_empty_exercise_text">Введите название упражнения</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="hint_username">Имя пользователя</string>
+    <string name="hint_password">Пароль</string>
+    <string name="sign_in_button">Вход</string>
+    <string name="sign_up_button">Регистрация</string>
+    <string name="hint_superhero">SuperHero</string>
+    <string name="textView_EnterUserName">Введите имя пользователя</string>
+    <string name="textView_EnterPassword">Введите пароль</string>
+    <string name="hint_newPassword">* * * * *</string>
+    <string name="hint_weight">Вес</string>
+    <string name="textView_weight">кг</string>
+    <string name="hint_Height">Рост</string>
+    <string name="textViw_Height">см</string>
+    <string name="successfullyCreatePerson">Пользователь успешно создан</string>
+    <string name="radio_button_text_man">Мужчина</string>
+    <string name="radio_button_text_women">Женщина</string>
+    <string name="hint_note_Description">Руки на ширине плеч, медленно ...</string>
+    <string name="hint_Age">Возраст</string>
+
+
+    <array name="types_of_exercises">
+        <item>Грудные</item>
+        <item>Спина</item>
+        <item>Ноги</item>
+        <item>Пресс</item>
+    </array>
+
+    <array name="types_of_training">
+        <item>Гипертрофия</item>
+        <item>Выносливость</item>
+        <item>Сила</item>
+    </array>
+
+
+</resources>
